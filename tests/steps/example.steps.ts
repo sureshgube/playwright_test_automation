@@ -14,7 +14,7 @@ After(async () => {
 });
 
 Given('I open the example homepage', async () => {
-  await page.goto('https://example.com');
+  await page.goto('https://google.com');
 });
 
 Then('the page title should contain {string}', async (expectedText: string) => {
