@@ -34,5 +34,14 @@ console.log(person);
 enum Color {Red, Green, Blue};
 var c:Color = Color.Green;
 console.log(c);
+//learn any
+var randomValue:any = 10;
+randomValue = "Hello";
+randomValue = true;
+console.log(randomValue);
 
-
+//learn functions
+function add(x:number, y:number):number {
+    return x + y;
+}
+console.log(add(5, 10));
