@@ -24,6 +24,15 @@ console.log(isActive);
 
 var count:number = 10;
 console.log(count);
-
+//learn arrays
+var numbers:number[] = [1, 2, 3, 4, 5];
+console.log(numbers);
+//learn tuples
+var person:[string, number] = ["Alice", 25];
+console.log(person);
+//learn enums
+enum Color {Red, Green, Blue};
+var c:Color = Color.Green;
+console.log(c);
 
 
